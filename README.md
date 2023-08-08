@@ -14,7 +14,7 @@
     ```
  *   需要暂停时
    ```
- *     setSafeInterval(async () => {
- *      await refreshAlertNum()
+     setSafeInterval(async () => {
+       await refreshAlertNum()
        }, 1000, true)
   ```
